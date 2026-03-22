@@ -27,6 +27,7 @@ SQL (MySQL) · Python (pandas, matplotlib)
   at any given time, which directly threatens revenue and customer 
   satisfaction.
 
+
 **2. Supplier Lead Times**
 
 Supplier 3 had the longest average total lead time at approximately 
@@ -34,6 +35,7 @@ Supplier 3 had the longest average total lead time at approximately
 Supplier 1 performed best at ~15 days. Notably, lead time 
 consistency varied significantly across suppliers — a wide delivery 
 range signals unreliability even when the average looks acceptable.
+
 
 **3. Revenue by Category**
 
@@ -43,6 +45,7 @@ normalizing by SKU count, the revenue per SKU gap between categories
 narrows — suggesting Skincare's lead is partly driven by having more 
 products, not just higher performing ones.
 
+
 **4. Demand vs Supply Gap**
 
 Several SKUs showed order quantities significantly exceeding stock 
@@ -50,6 +53,7 @@ levels, indicating a persistent demand-supply mismatch. These
 products are being ordered in high volumes but inventory continues 
 to be depleted faster than it is replenished — a key driver of the 
 stockout risk identified in Q1.
+
 
 **5. Supplier Quality**
 
