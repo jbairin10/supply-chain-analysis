@@ -6,7 +6,6 @@
 -- Dataset: supply_chain_data
 -- ================================================
 
-
 -- ================================================
 -- Q1: Which products are at stockout risk?
 -- ================================================
@@ -129,8 +128,7 @@ SELECT
     order_quantities,
     stock_levels,
 	(order_quantities - stock_levels) AS supply_gap
-FROM 
-	supply_chain_data
+FROM supply_chain_data
 ORDER BY supply_gap DESC;
 
 -- ================================================
@@ -158,7 +156,6 @@ SELECT
     SUM(CASE WHEN inspection_results = 'Pending' THEN 1 ELSE 0 END) AS total_pending,
 	SUM(CASE WHEN inspection_results = 'Pass' THEN 1 ELSE 0 END) AS total_pass,
 	SUM(CASE WHEN inspection_results = 'Fail' THEN 1 ELSE 0 END) AS total_fail
-FROM
-	supply_chain_data
+FROM supply_chain_data
 GROUP BY supplier_name
 ORDER BY avg_defect_rate DESC;
