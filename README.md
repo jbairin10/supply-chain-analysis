@@ -19,7 +19,7 @@ SQL (MySQL) · Python (pandas, matplotlib)
 
 ### Key Findings
 
-**1. Inventory Risk**
+**1. Inventory Risk
   41 out of 100 SKUs were classified as Critical or High Risk based on 
   a combined analysis of days of supply and availability scores. This 
   suggests that nearly half the product catalog is at risk of stockout 
